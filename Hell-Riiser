@@ -2276,7 +2276,7 @@ break
             case 'alive':
             case 'bot':
             case 'allmenu':
-                let xeonmenuoh = `╭━━〔 *_Welcome_* 〕━━⊷
+                let xeonmenuoh = `╭━━〔 *_Welcome To Aqib_* 〕━━⊷
 
 〔 ${pushname} 〕 
 
