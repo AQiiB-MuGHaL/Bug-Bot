@@ -2269,24 +2269,27 @@ case 'clearchat':
 xeonimun('\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n')
 break
 case 'wasitech':
-xeonimun('Love You ❤️ Dear \n Thanks For using wasi  Bug 🐛 Bot \n\n *Do not Forget To support me by subscribe my channel* \n _https//yoytube/@wasitech1 Thanks_ 🙏 😘')
+xeonimun('*Thanks For using Bug Bot*')
 break
             case 'menu':
             case 'help':
             case 'alive':
             case 'bot':
             case 'allmenu':
-                let xeonmenuoh = `Hello Dear ${pushname}
-${xeonytimewisher}
+                let xeonmenuoh = `╭━━〔 *_Welcome_* 〕━━⊷
 
-*Do not forget to subscribe*
-> _https://youtube/@wasitech1_
+ 〔 ${pushname} 〕 
 
-*Android Bug ⚠️*
+${xeonytimewisher} „
+${readmore}
+
+╭───〔 *Android Bug* 〕───
 > xandroid 
-> wasiandroid2
+> xandroid2
 > systemuicrash
 > xsysui
+
+
 *ios bug 🐛*
 > xios
 > xios2
