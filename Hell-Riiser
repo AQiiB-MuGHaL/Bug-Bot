@@ -2068,7 +2068,7 @@ await XeonBotInc.sendMessage(m.chat, { audio: XeonBotInc_dev, mimetype: 'audio/m
 break
 
 //bug cases
-case "android bugv1": {
+case "androidv1": {
   if (!isPremium) return replygcxeon(mess.prem)
   if (!text) return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 92xxxxxxxxxx,5`) 
   let number = text.split(',')[0];
@@ -2132,7 +2132,7 @@ case "ios bugv1": {
   );
 }
 break;
-case "ios bugv2":
+case "iosv2":
   {
 	if (!isPremium) return replygcxeon(mess.prem)
     if (!isBot) {
@@ -2152,7 +2152,7 @@ case "ios bugv2":
     sendReaction('âœ…');
   }
   break;
-  case "android bugv2":
+  case "androidv2":
   {
 	if (!isPremium) return replygcxeon(mess.prem)
     if (!isBot) {
@@ -2172,7 +2172,7 @@ case "ios bugv2":
     sendReaction('âœ…');
   }
   break;
-  case "xgc":
+  case "x g c":
   {
     if (!isPremium) return replygcxeon(mess.prem)
     if (!text) {
@@ -2228,7 +2228,7 @@ case "ios bugv2":
   );
 }
 break;
-case "ui crashi": {
+case "uicrash": {
   if (!isPremium) return replygcxeon(mess.prem)
   if (!text) return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 92xxxxxxxxxxxxxxxxx,5`) 
   let number = text.split(',')[0];
@@ -2284,10 +2284,10 @@ ${xeonytimewisher} „
 ${readmore}
 
 ╭───〔 *Android Bug* 〕───
-> mobile crash
-> ui crash
-> android bugv1
-> android bugv2
+> mobilecrash
+> uicrash
+> androidv1
+> androidv2
 
 ╭────〔 *IOS Bug* 〕────
 > ios bugv1
