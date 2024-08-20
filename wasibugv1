@@ -2278,7 +2278,7 @@ break
             case 'allmenu':
                 let xeonmenuoh = `╭━━〔 *_Welcome_* 〕━━⊷
 
- 〔 ${pushname} 〕 
+〔 ${pushname} 〕 
 
 ${xeonytimewisher} „
 ${readmore}
@@ -2289,17 +2289,19 @@ ${readmore}
 > systemuicrash
 > xsysui
 
+╭────〔 *IOS Bug* 〕────
 
-*ios bug 🐛*
 > xios
 > xios2
-*Group bug 🦠*
+
+╭────〔 *Group Bug* 〕───
+
 > xgc
 
-*Owner menu 🔐*
+╭───〔 *Owner Menu* 〕───
+
 > getsession
 > deletesession
-> pp
 > join
 > shutdown  
 > restart
@@ -2316,9 +2318,9 @@ ${readmore}
 > getcase
 > addowner
 > delowner
-> bcgc
 
-*Group Menu 👪*
+╭───〔 *Group Menu* 〕───
+
 > closetime
 > opentime
 > kick
@@ -2336,16 +2338,17 @@ ${readmore}
 > revoke
 > listonline
 
-*Main menu ❤️*
+╭───〔 *Bot Menu* 〕───
+
 > menu
-> buypremium   _7466008456_
+> buypremium
 > runtime
 > script
 > donate
 > owner
-> wasitech
 
-*Convert menu 🔄*
+╭───〔 *Convert Menu* 〕───
+
 > sticker
 > smeme
 > take
@@ -2361,7 +2364,8 @@ ${readmore}
 > fliptext
 > emojimix
 
-*Auto BGM,STICKER,PIC,VIDEO reply 📢*
+╭────〔 *User Menu* 〕───
+
 > addvideo
 > addimage
 > addsticker
@@ -2384,7 +2388,8 @@ ${readmore}
 > listapk
 > listpdf
 
-*Download menu 📥*
+╭───〔 *Download Menu* 〕──
+
 > play
 > ytmp3
 > ytmp4
