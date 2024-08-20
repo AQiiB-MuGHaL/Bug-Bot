@@ -27,7 +27,7 @@ const store = makeInMemoryStore({
     })
 })
 
-let phoneNumber = "923192173398"
+let phoneNumber = "+447399530197"
 let owner = JSON.parse(fs.readFileSync('./database/owner.json'))
 
 const pairingCode = !!phoneNumber || process.argv.includes("--pairing-code")
@@ -73,18 +73,18 @@ const {  state, saveCreds } =await useMultiFileAuthState(`./session`)
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +916909137213")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +447399530197")))
             process.exit(0)
          }
       } else {
-         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +923192173398 : `)))
+         phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +447399530197 : `)))
          phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
 
          // Ask again when entering the wrong number
          if (!Object.keys(PHONENUMBER_MCC).some(v => phoneNumber.startsWith(v))) {
-            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +923192173398")))
+            console.log(chalk.bgBlack(chalk.redBright("Start with country code of your WhatsApp Number, Example : +447399530197")))
 
-            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +923192173398 : `)))
+            phoneNumber = await question(chalk.bgBlack(chalk.greenBright(`Please type your WhatsApp number 😍\nFor example: +447399530197 : `)))
             phoneNumber = phoneNumber.replace(/[^0-9]/g, '')
             rl.close()
          }
@@ -169,13 +169,11 @@ XeonBotInc.ev.on("connection.update",async  (s) => {
         	console.log(chalk.magenta(` `))
             console.log(chalk.yellow(`🌿Connected to => ` + JSON.stringify(XeonBotInc.user, null, 2)))
 			await delay(1999)
-            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ wasibugv1ᵇᵘᵍ ᵇᵒᵗ ]`)}\n\n`))
+            console.log(chalk.yellow(`\n\n                  ${chalk.bold.blue(`[ H3ll RiiS3R ]`)}\n\n`))
             console.log(chalk.cyan(`< ================================================== >`))
-	        console.log(chalk.magenta(`\n${themeemoji} Telegram CHANNEL:@wasitechx`))
-            console.log(chalk.magenta(`${themeemoji} GITHUB: Private `))
-            console.log(chalk.magenta(`${themeemoji} INSTAGRAM: private `))
-            console.log(chalk.magenta(`${themeemoji} WA NUMBER: 923192173398`))
-            console.log(chalk.magenta(`${themeemoji} CREDIT: @wasitechx\n`))
+            console.log(chalk.magenta(`${themeemoji} GITHUB: AQiiB MuGHal`))
+            console.log(chalk.magenta(`${themeemoji} WA NUMBER: +447399530197`))
+            console.log(chalk.magenta(`${themeemoji} CREDIT: AQiiB MuGHaL\n`))
         }
         if (
             connection === "close" &&
