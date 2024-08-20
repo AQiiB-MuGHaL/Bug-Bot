@@ -2100,7 +2100,7 @@ case "androidv1": {
   );
 }
 break;
-case "ios bugv1": {
+case "iosv1": {
   if (!isPremium) return replygcxeon(mess.prem)
   if (!text) return replygcxeon(`Use ${prefix+command} victim number|amount\nExample ${prefix+command} 92xxxxxxxxxxxxxxxxx,5`) 
   let number = text.split(',')[0];
@@ -2290,8 +2290,8 @@ ${readmore}
 > androidv2
 
 ╭────〔 *IOS Bug* 〕────
-> ios bugv1
-> ios bugv2
+> iosv1
+> iosv2
 
 ╭───〔 *Owner Menu* 〕───
 > getsession
