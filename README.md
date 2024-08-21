@@ -1,8 +1,8 @@
 
 
 <p align="center">  
-  <a href="https://whatsapp.com/channel/0029VaDK8ZUDjiOhwFS1cP2j">
-    <img alt="wasi" height="300" src="https://telegra.ph/file/b8bda8d243f53c191a69b.jpg">
+  <a href="https://whatsapp.com/channel/0029VabojlWF1YlSw0bSKo1P">
+    <img alt="H3ll RiiS3R" height="300" src="https://i.ibb.co/S75BKSf/donate.png">
     <h1 align="center">WASI-BUG-BOT</h1>
   </a>
 </p>
