@@ -36,10 +36,10 @@ termux-setup-storage
 ```
 
 ```
-git clone https://github.com/wasi-ser/WASI-BUG-BOT 
+git clone https://github.com/AQiiB-MuGHaL/Bug-Bot/
 ```
 ```
-cd WASI-BUG-BOT
+cd BUG-BOT
 ```
 ```
 yarn install
