@@ -39,7 +39,7 @@ termux-setup-storage
 git clone https://github.com/AQiiB-MuGHaL/Bug-Bot/
 ```
 ```
-cd BUG-BOT
+cd Bug-Bot
 ```
 ```
 yarn install
